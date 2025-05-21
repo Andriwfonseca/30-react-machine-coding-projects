@@ -4,7 +4,7 @@ import Counter from "./pages/Counter";
 
 function App() {
   return (
-    <div className="bg-purple-600 text-white font-bold flex flex-col items-center min-h-screen">
+    <div className="bg-purple-900 flex flex-col items-center min-h-screen">
       <main className="flex-1 w-full p-4">
         <Routes>
           <Route path="/" element={<Home />} />
