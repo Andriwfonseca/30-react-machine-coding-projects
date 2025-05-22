@@ -1,12 +1,51 @@
-# React + Vite
+# 🚀 30 React Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém **30 projetos desenvolvidos com React**, com o objetivo de praticar, aperfeiçoar habilidades e explorar diferentes conceitos e desafios do ecossistema React.
 
-Currently, two official plugins are available:
+O projeto é construído utilizando **Vite**, proporcionando uma experiência de desenvolvimento mais rápida e moderna.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Sobre o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Este repositório serve como uma coleção de mini-projetos feitos em React.
+- Cada projeto aborda um conceito ou desafio específico, como:
+  - Estados e eventos
+  - Hooks (`useState`, `useEffect`, `useRef`, etc.)
+  - Gerenciamento de listas
+  - Componentização
+  - Roteamento com React Router
+  - Estilização com Tailwind CSS
+  - E muito mais...
+
+O objetivo é aprimorar as habilidades no desenvolvimento frontend com React, construindo pequenos projetos funcionais e modulares.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🔗 React Router DOM
+
+---
+
+## Tutorial utiizado no youtube
+
+### https://www.youtube.com/watch?v=IgWWQT5njag
+
+## 🚀 Como rodar o projeto localmente
+
+### 🔧 Pré-requisitos
+
+- Node.js (versão recomendada: >=18)
+- npm ou yarn
+
+### ⬇️ Instalando as dependências
+
+```bash
+npm install
+# ou
+yarn
+```
