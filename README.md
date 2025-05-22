@@ -31,7 +31,7 @@ O objetivo é aprimorar as habilidades no desenvolvimento frontend com React, co
 
 ---
 
-## Tutorial utiizado no youtube
+## Tutorial utilizado no youtube
 
 ### https://www.youtube.com/watch?v=IgWWQT5njag
 
