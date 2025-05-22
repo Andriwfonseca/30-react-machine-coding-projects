@@ -14,6 +14,11 @@ const Home = () => {
           description="Um contador com funcionalidades de desfazer e refazer."
           route="/counter"
         />
+        <Card
+          title="Dropdown"
+          description="Um dropdown que fecha ao clicar fora dele."
+          route="/outside-click"
+        />
       </div>
     </div>
   );

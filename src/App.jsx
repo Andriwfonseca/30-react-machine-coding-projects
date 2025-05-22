@@ -2,6 +2,7 @@ import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Counter from "./pages/Counter";
 import Button from "./components/Button";
+import ClickOutsideDropdown from "./pages/ClickOutsideDropdown";
 
 function App() {
   const location = useLocation();
@@ -10,10 +11,11 @@ function App() {
   const isHome = location.pathname === "/";
 
   return (
-    <div className="flex flex-col min-h-screen justify-between bg-gray-50">
+    <div className="flex flex-col min-h-screen justify-between bg-gray-100">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
+        <Route path="/outside-click" element={<ClickOutsideDropdown />} />
       </Routes>
 
       {!isHome && (

@@ -2,6 +2,7 @@ const Button = ({
   children,
   variant = "primary",
   disabled = false,
+  addClassName,
   ...props
 }) => {
   const baseClasses =
@@ -19,7 +20,7 @@ const Button = ({
   return (
     <button
       disabled={disabled}
-      className={`${baseClasses} ${variants[variant]} ${disabledClasses}`}
+      className={`${baseClasses} ${variants[variant]} ${disabledClasses} ${addClassName}`}
       {...props}
     >
       {children}
